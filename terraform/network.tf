@@ -96,6 +96,6 @@ resource "aws_security_group" "final-all" {
   }
 
   tags = {
-    "Name" = "final-all"
+    "Name" = "finall-all"
   }
 }
