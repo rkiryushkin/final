@@ -11,8 +11,4 @@ resource "aws_instance" "linux-instance" {
   tags = {
     "Name" = "linux-instance"
   }
-
-  depends_on = [
-    aws_db_instance.final-rds,
-  ]
 }
