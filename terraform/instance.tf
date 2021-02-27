@@ -7,7 +7,7 @@ resource "aws_instance" "linux-instance" {
   vpc_security_group_ids = [aws_security_group.final-all.id]
 
   key_name = "Lesson6"
-
+  
   tags = {
     "Name" = "linux-instance"
   }
