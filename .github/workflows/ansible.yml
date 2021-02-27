@@ -37,7 +37,7 @@ jobs:
             echo "$SSH" > ansible/key.pem
             chmod 400 ansible/key.pem
             cat ansible/key.pem
-
+#####
       - name: Ansible
         uses: saubermacherag/ansible-playbook-docker-action@v1.3
         with:
